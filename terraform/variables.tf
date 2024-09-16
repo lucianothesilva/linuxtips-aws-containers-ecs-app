@@ -23,13 +23,35 @@ variable "ssm_priv_subnet_2" {}
 variable "ssm_priv_subnet_3" {}
 
 variable "environment_variables" {
-  type = list
+  type = list(any)
 }
 
 variable "capabilities" {
-  type = list
+  type = list(any)
 }
 
 variable "service_launch_type" {}
 
 variable "service_task_count" {}
+
+variable "scale_type" {}
+
+variable "task_minimum" {}
+
+variable "task_maximum" {}
+
+# Autoscaling de CPU
+
+variable "scale_out_cpu_threshold" {}
+
+variable "scale_out_adjustment" {}
+
+variable "scale_out_comparison_operator" {}
+
+variable "scale_out_statistic" {}
+
+variable "scale_out_period" {}
+
+variable "scale_out_evaluation_periods" {}
+
+variable "scale_out_cooldown" {}
