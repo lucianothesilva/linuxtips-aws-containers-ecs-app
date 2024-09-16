@@ -15,7 +15,6 @@ module "service" {
   service_hosts = var.service_hosts
   
   environment_variables = var.environment_variables
-
   capabilities = var.capabilities
 
   vpc_id = data.aws_ssm_parameter.vpc_id.value
