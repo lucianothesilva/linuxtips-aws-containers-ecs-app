@@ -17,3 +17,7 @@ data "aws_ssm_parameter" "priv_subnet_2" {
 data "aws_ssm_parameter" "priv_subnet_1" {
   name = var.ssm_priv_subnet_3
 }
+
+data "aws_ssm_parameter" "alb" {
+  name = var.ssm_alb
+}
