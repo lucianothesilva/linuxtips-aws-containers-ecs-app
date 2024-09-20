@@ -13,5 +13,5 @@ const params = {
     },
   };
 export default function () {
-  http.get('http://linuxtips-ecs-cluster-ingress-346428013.us-east-1.elb.amazonaws.com/system', params);
+  http.get('http://linuxtips-ecs-cluster-ingress-xxxxxx.us-east-2.elb.amazonaws.com/system', params);
 }

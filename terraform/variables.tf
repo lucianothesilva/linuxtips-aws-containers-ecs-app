@@ -23,7 +23,7 @@ variable "ssm_priv_subnet_2" {}
 variable "ssm_priv_subnet_3" {}
 
 variable "ssm_alb" {
-
+  
 }
 
 variable "environment_variables" {
@@ -78,7 +78,5 @@ variable "scale_in_cooldown" {}
 # tracking CPU
 variable "scale_tracking_cpu" {}
 
-
-variable "alb_arn" {}
 
 variable "scale_tracking_requests" {}
