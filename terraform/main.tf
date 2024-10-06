@@ -13,6 +13,7 @@ module "service" {
   service_launch_type         = var.service_launch_type
   service_task_count          = var.service_task_count
   service_hosts               = var.service_hosts
+  countainer_image = var.container_image
 
   environment_variables = var.environment_variables
   capabilities          = var.capabilities

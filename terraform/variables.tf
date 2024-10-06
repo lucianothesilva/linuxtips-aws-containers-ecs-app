@@ -41,6 +41,10 @@ type = list(object({
 }))
 }
 
+variable "container_image" {
+  
+}
+
 variable "service_task_count" {}
 
 variable "scale_type" {}
