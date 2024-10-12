@@ -24,8 +24,8 @@ No requirements.
 | [aws_iam_role.main](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role) | resource |
 | [aws_iam_role_policy.ecs_task_execution_policy](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy) | resource |
 | [aws_ssm_parameter.listener](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ssm_parameter) | data source |
-| [aws_ssm_parameter.priv_subnet_1](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ssm_parameter) | data source |
-| [aws_ssm_parameter.priv_subnet_2](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ssm_parameter) | data source |
+| [aws_ssm_parameter.private_subnet_1](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ssm_parameter) | data source |
+| [aws_ssm_parameter.private_subnet_2](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ssm_parameter) | data source |
 | [aws_ssm_parameter.vpc_id](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ssm_parameter) | data source |
 
 ## Inputs
@@ -44,9 +44,9 @@ No requirements.
 | <a name="input_service_port"></a> [service\_port](#input\_service\_port) | n/a | `any` | n/a | yes |
 | <a name="input_service_task_count"></a> [service\_task\_count](#input\_service\_task\_count) | n/a | `any` | n/a | yes |
 | <a name="input_ssm_listener"></a> [ssm\_listener](#input\_ssm\_listener) | n/a | `any` | n/a | yes |
-| <a name="input_ssm_priv_subnet_1"></a> [ssm\_priv\_subnet\_1](#input\_ssm\_priv\_subnet\_1) | n/a | `any` | n/a | yes |
-| <a name="input_ssm_priv_subnet_2"></a> [ssm\_priv\_subnet\_2](#input\_ssm\_priv\_subnet\_2) | n/a | `any` | n/a | yes |
-| <a name="input_ssm_priv_subnet_3"></a> [ssm\_priv\_subnet\_3](#input\_ssm\_priv\_subnet\_3) | n/a | `any` | n/a | yes |
+| <a name="input_ssm_private_subnet_1"></a> [ssm\_priv\_subnet\_1](#input\_ssm\_priv\_subnet\_1) | n/a | `any` | n/a | yes |
+| <a name="input_ssm_private_subnet_2"></a> [ssm\_priv\_subnet\_2](#input\_ssm\_priv\_subnet\_2) | n/a | `any` | n/a | yes |
+| <a name="input_ssm_private_subnet_3"></a> [ssm\_priv\_subnet\_3](#input\_ssm\_priv\_subnet\_3) | n/a | `any` | n/a | yes |
 | <a name="input_ssm_vpc_id"></a> [ssm\_vpc\_id](#input\_ssm\_vpc\_id) | n/a | `any` | n/a | yes |
 
 ## Outputs
